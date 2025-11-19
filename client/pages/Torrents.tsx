@@ -1,11 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  Sun,
-  Moon,
-  ArrowLeft,
-  DownloadCloud,
-} from "lucide-react";
+import { Sun, Moon, ArrowLeft, DownloadCloud } from "lucide-react";
 import { updateMetaTags } from "@/lib/meta-tags";
 
 const torrentsCategories = [
@@ -31,9 +26,11 @@ export default function Torrents() {
     // Update meta tags for SEO
     updateMetaTags({
       title: "Torrent Resources - Gateway Links 2K25 | Torrent Sites",
-      description: "Access organized torrent resources and links for content sharing. Gateway Links 2K25 curates the best torrent platforms and torrent sites.",
+      description:
+        "Access organized torrent resources and links for content sharing. Gateway Links 2K25 curates the best torrent platforms and torrent sites.",
       url: "https://gatewaylinks2k25.com/torrents",
-      keywords: "torrent links, torrent sites, torrent resources, p2p sharing, torrent platforms, download torrents"
+      keywords:
+        "torrent links, torrent sites, torrent resources, p2p sharing, torrent platforms, download torrents",
     });
   }, []);
 
@@ -225,8 +222,8 @@ export default function Torrents() {
                 Torrents
               </h3>
               <p className="text-sm text-[hsl(var(--text-secondary))] leading-relaxed">
-                Access organized torrent resources and curated platform links for
-                P2P sharing and content distribution.
+                Access organized torrent resources and curated platform links
+                for P2P sharing and content distribution.
               </p>
             </div>
           </div>

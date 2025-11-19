@@ -1,13 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  Sun,
-  Moon,
-  ArrowLeft,
-  MessageCircle,
-  Image,
-  Code,
-} from "lucide-react";
+import { Sun, Moon, ArrowLeft, MessageCircle, Image, Code } from "lucide-react";
 import { updateMetaTags } from "@/lib/meta-tags";
 
 const aiCategories = [
@@ -31,7 +24,10 @@ const aiCategories = [
     links: [
       { name: "Snapfiddle AI", url: "https://snapfiddle.ai/" },
       { name: "Pic Lumen AI", url: "https://www.piclumen.com" },
-      { name: "Perchance AI", url: "https://perchance.org/ai-character-generator" },
+      {
+        name: "Perchance AI",
+        url: "https://perchance.org/ai-character-generator",
+      },
       { name: "Diffusion Art", url: "https://diffusionart.co/" },
       { name: "Sinkin AI", url: "https://sinkin.ai/" },
       { name: "Stable AI", url: "https://stablediffusion.vercel.app/" },
@@ -74,10 +70,13 @@ export default function AI() {
   useEffect(() => {
     // Update meta tags for SEO
     updateMetaTags({
-      title: "AI Tools & Resources - Gateway Links 2K25 | Artificial Intelligence",
-      description: "Discover curated AI tools, machine learning resources, and intelligent applications. Gateway Links 2K25 provides the best collection of AI platforms for chatbots, image generation, and coding assistance.",
+      title:
+        "AI Tools & Resources - Gateway Links 2K25 | Artificial Intelligence",
+      description:
+        "Discover curated AI tools, machine learning resources, and intelligent applications. Gateway Links 2K25 provides the best collection of AI platforms for chatbots, image generation, and coding assistance.",
       url: "https://gatewaylinks2k25.com/ai",
-      keywords: "AI tools, artificial intelligence, machine learning, AI resources, AI platforms, chatbots, image generation AI, coding AI"
+      keywords:
+        "AI tools, artificial intelligence, machine learning, AI resources, AI platforms, chatbots, image generation AI, coding AI",
     });
   }, []);
 
@@ -269,8 +268,9 @@ export default function AI() {
                 AI Tools
               </h3>
               <p className="text-sm text-[hsl(var(--text-secondary))] leading-relaxed">
-                Access the most comprehensive collection of artificial intelligence
-                tools, machine learning platforms, and AI resources.
+                Access the most comprehensive collection of artificial
+                intelligence tools, machine learning platforms, and AI
+                resources.
               </p>
             </div>
           </div>

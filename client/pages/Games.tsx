@@ -1,11 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  Sun,
-  Moon,
-  ArrowLeft,
-  Gamepad2,
-} from "lucide-react";
+import { Sun, Moon, ArrowLeft, Gamepad2 } from "lucide-react";
 import { updateMetaTags } from "@/lib/meta-tags";
 
 const gamesCategories = [
@@ -38,9 +33,11 @@ export default function Games() {
     // Update meta tags for SEO
     updateMetaTags({
       title: "Free Games Download - Gateway Links 2K25 | Gaming Links",
-      description: "Browse gaming links and resources for all types of games. Gateway Links 2K25 provides curated gaming platform and free game download site links.",
+      description:
+        "Browse gaming links and resources for all types of games. Gateway Links 2K25 provides curated gaming platform and free game download site links.",
       url: "https://gatewaylinks2k25.com/games",
-      keywords: "game links, gaming platforms, video games, game downloads, free games, PC games, game resources, gaming sites"
+      keywords:
+        "game links, gaming platforms, video games, game downloads, free games, PC games, game resources, gaming sites",
     });
   }, []);
 
@@ -232,8 +229,8 @@ export default function Games() {
                 Games
               </h3>
               <p className="text-sm text-[hsl(var(--text-secondary))] leading-relaxed">
-                Access the most comprehensive collection of gaming platform and game
-                download resource links.
+                Access the most comprehensive collection of gaming platform and
+                game download resource links.
               </p>
             </div>
           </div>

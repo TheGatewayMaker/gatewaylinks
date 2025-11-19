@@ -17,23 +17,30 @@ export default function CategoryPlaceholder({
   useEffect(() => {
     // Update meta tags for SEO based on category
     const categoryDescriptions: { [key: string]: string } = {
-      "Apps & Softwares": "Find and download essential applications and software tools. Gateway Links 2K25 provides curated links to productivity apps, development software, and utilities.",
-      "Books & Novels": "Access a vast collection of e-books, novels, and digital reading resources. Discover literature links curated by Gateway Links 2K25.",
-      "Artificial Intelligence": "Explore cutting-edge AI tools, machine learning resources, and intelligent applications. Gateway Links 2K25 brings the best AI tools in one place.",
-      "Games": "Browse gaming links and resources for all types of games. Gateway Links 2K25 provides comprehensive gaming platform and download site links.",
-      "Torrents": "Access organized torrent resources and links for content sharing. Gateway Links 2K25 curates the best torrent platforms and sites.",
+      "Apps & Softwares":
+        "Find and download essential applications and software tools. Gateway Links 2K25 provides curated links to productivity apps, development software, and utilities.",
+      "Books & Novels":
+        "Access a vast collection of e-books, novels, and digital reading resources. Discover literature links curated by Gateway Links 2K25.",
+      "Artificial Intelligence":
+        "Explore cutting-edge AI tools, machine learning resources, and intelligent applications. Gateway Links 2K25 brings the best AI tools in one place.",
+      Games:
+        "Browse gaming links and resources for all types of games. Gateway Links 2K25 provides comprehensive gaming platform and download site links.",
+      Torrents:
+        "Access organized torrent resources and links for content sharing. Gateway Links 2K25 curates the best torrent platforms and sites.",
       "Dark Web": "Coming soon to Gateway Links 2K25.",
-      "Breach & Leaks": "Coming soon to Gateway Links 2K25."
+      "Breach & Leaks": "Coming soon to Gateway Links 2K25.",
     };
 
-    const description = categoryDescriptions[title] || `Explore ${title} resources on Gateway Links 2K25`;
+    const description =
+      categoryDescriptions[title] ||
+      `Explore ${title} resources on Gateway Links 2K25`;
     const keywords = `${title.toLowerCase()}, ${title} links, ${title} resources, gateway links 2k25`;
 
     updateMetaTags({
       title: `${title} - Gateway Links 2K25 | Curated Links`,
       description: description,
-      url: `https://gatewaylinks2k25.com/${title.toLowerCase().replace(/[^a-z0-9]/g, '')}`,
-      keywords: keywords
+      url: `https://gatewaylinks2k25.com/${title.toLowerCase().replace(/[^a-z0-9]/g, "")}`,
+      keywords: keywords,
     });
   }, [title]);
 

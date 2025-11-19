@@ -1,11 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import {
-  Sun,
-  Moon,
-  ArrowLeft,
-  Monitor,
-} from "lucide-react";
+import { Sun, Moon, ArrowLeft, Monitor } from "lucide-react";
 import { updateMetaTags } from "@/lib/meta-tags";
 
 const appsCategories = [
@@ -33,10 +28,13 @@ export default function Apps() {
   useEffect(() => {
     // Update meta tags for SEO
     updateMetaTags({
-      title: "Apps & Software Download - Gateway Links 2K25 | Free Applications",
-      description: "Download essential applications and software tools. Gateway Links 2K25 provides curated links to productivity apps, development software, and utility tools.",
+      title:
+        "Apps & Software Download - Gateway Links 2K25 | Free Applications",
+      description:
+        "Download essential applications and software tools. Gateway Links 2K25 provides curated links to productivity apps, development software, and utility tools.",
       url: "https://gatewaylinks2k25.com/apps",
-      keywords: "app downloads, software downloads, free applications, productivity apps, development software, utility tools, apps & softwares"
+      keywords:
+        "app downloads, software downloads, free applications, productivity apps, development software, utility tools, apps & softwares",
     });
   }, []);
 
@@ -228,8 +226,8 @@ export default function Apps() {
                 Apps & Software
               </h3>
               <p className="text-sm text-[hsl(var(--text-secondary))] leading-relaxed">
-                Access the largest collection of software and application download
-                resources and links.
+                Access the largest collection of software and application
+                download resources and links.
               </p>
             </div>
           </div>

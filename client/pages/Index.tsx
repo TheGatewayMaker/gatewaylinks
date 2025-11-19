@@ -7,38 +7,48 @@ const categories = [
   {
     name: "Streaming",
     path: "/streaming",
-    description: "Discover curated links to popular streaming platforms for movies, TV shows, and online content",
-    keywords: "streaming links, movies, TV shows, online streaming, video platforms"
+    description:
+      "Discover curated links to popular streaming platforms for movies, TV shows, and online content",
+    keywords:
+      "streaming links, movies, TV shows, online streaming, video platforms",
   },
   {
     name: "Apps & Softwares",
     path: "/apps",
-    description: "Find comprehensive links to essential applications and software tools for productivity and development",
-    keywords: "app links, software downloads, applications, productivity tools, development software"
+    description:
+      "Find comprehensive links to essential applications and software tools for productivity and development",
+    keywords:
+      "app links, software downloads, applications, productivity tools, development software",
   },
   {
     name: "Books & Novels",
     path: "/books",
-    description: "Access a vast collection of curated links to e-books, novels, and digital reading resources",
-    keywords: "e-books, novels, reading, digital books, literature links"
+    description:
+      "Access a vast collection of curated links to e-books, novels, and digital reading resources",
+    keywords: "e-books, novels, reading, digital books, literature links",
   },
   {
     name: "Artificial Intelligence",
     path: "/ai",
-    description: "Explore cutting-edge AI tools, machine learning resources, and intelligent applications in one place",
-    keywords: "AI tools, artificial intelligence, machine learning, AI resources, AI platforms"
+    description:
+      "Explore cutting-edge AI tools, machine learning resources, and intelligent applications in one place",
+    keywords:
+      "AI tools, artificial intelligence, machine learning, AI resources, AI platforms",
   },
   {
     name: "Games",
     path: "/games",
-    description: "Browse curated gaming links and resources for all types of games and gaming enthusiasts",
-    keywords: "game links, gaming platforms, video games, game resources, gaming sites"
+    description:
+      "Browse curated gaming links and resources for all types of games and gaming enthusiasts",
+    keywords:
+      "game links, gaming platforms, video games, game resources, gaming sites",
   },
   {
     name: "Torrents",
     path: "/torrents",
-    description: "Access organized torrent resources and links for various types of content",
-    keywords: "torrent links, torrent sites, torrent resources, p2p sharing"
+    description:
+      "Access organized torrent resources and links for various types of content",
+    keywords: "torrent links, torrent sites, torrent resources, p2p sharing",
   },
   {
     name: "Dark Web",
@@ -61,9 +71,11 @@ export default function Index() {
     // Update meta tags for SEO
     updateMetaTags({
       title: "Gateway Links 2K25 - g2k Ultimate Link Directory",
-      description: "Gateway Links 2K25 - Your ultimate gateway to discover streaming platforms, applications, books, AI tools, games, torrents, and more. All curated links in one place.",
+      description:
+        "Gateway Links 2K25 - Your ultimate gateway to discover streaming platforms, applications, books, AI tools, games, torrents, and more. All curated links in one place.",
       url: "https://gatewaylinks2k25.com/",
-      keywords: "g2k, gateway links, gateway links 2k25, link aggregator, streaming, apps, books, AI tools, games, torrents"
+      keywords:
+        "g2k, gateway links, gateway links 2k25, link aggregator, streaming, apps, books, AI tools, games, torrents",
     });
   }, []);
 
@@ -97,13 +109,11 @@ export default function Index() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "name": "Gateway Links 2K25",
-          "description": "Link aggregator directory for streaming, apps, books, AI tools, games, and torrents",
-          "url": "https://gatewaylinks2k25.com",
-          "sameAs": [
-            "https://www.g2k.co",
-            "https://www.g2kgames.net"
-          ]
+          name: "Gateway Links 2K25",
+          description:
+            "Link aggregator directory for streaming, apps, books, AI tools, games, and torrents",
+          url: "https://gatewaylinks2k25.com",
+          sameAs: ["https://www.g2k.co", "https://www.g2kgames.net"],
         })}
       </script>
 
@@ -197,7 +207,10 @@ export default function Index() {
       {/* Footer */}
       <footer className="border-t border-[hsl(var(--border))] bg-[hsl(var(--bg-secondary))] mt-auto">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-          <nav className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8 pb-8 border-b border-[hsl(var(--border))]" aria-label="Footer navigation">
+          <nav
+            className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8 pb-8 border-b border-[hsl(var(--border))]"
+            aria-label="Footer navigation"
+          >
             <div>
               <h3 className="text-sm font-semibold text-[hsl(var(--text-primary))] mb-4">
                 Main Categories
@@ -275,13 +288,18 @@ export default function Index() {
                 About Gateway Links 2K25
               </h3>
               <p className="text-sm text-[hsl(var(--text-secondary))] leading-relaxed">
-                Your ultimate gateway to discover and explore curated links for streaming, applications, books, AI tools, games, torrents, and more. Access everything in one place with our clean, modern interface. Also known as G2K - Your comprehensive link aggregator and directory.
+                Your ultimate gateway to discover and explore curated links for
+                streaming, applications, books, AI tools, games, torrents, and
+                more. Access everything in one place with our clean, modern
+                interface. Also known as G2K - Your comprehensive link
+                aggregator and directory.
               </p>
             </div>
           </nav>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25 (G2K). All rights reserved. | A comprehensive link directory and aggregator platform.
+              © 2025 Gateway Links 2K25 (G2K). All rights reserved. | A
+              comprehensive link directory and aggregator platform.
             </p>
           </div>
         </div>

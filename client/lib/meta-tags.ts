@@ -9,94 +9,98 @@ interface MetaTagConfig {
 export function updateMetaTags(config: MetaTagConfig) {
   // Update title
   document.title = config.title;
-  
+
   // Update or create meta description
   let descriptionMeta = document.querySelector('meta[name="description"]');
   if (!descriptionMeta) {
-    descriptionMeta = document.createElement('meta');
-    descriptionMeta.setAttribute('name', 'description');
+    descriptionMeta = document.createElement("meta");
+    descriptionMeta.setAttribute("name", "description");
     document.head.appendChild(descriptionMeta);
   }
-  descriptionMeta.setAttribute('content', config.description);
-  
+  descriptionMeta.setAttribute("content", config.description);
+
   // Update or create keywords meta
   if (config.keywords) {
     let keywordsMeta = document.querySelector('meta[name="keywords"]');
     if (!keywordsMeta) {
-      keywordsMeta = document.createElement('meta');
-      keywordsMeta.setAttribute('name', 'keywords');
+      keywordsMeta = document.createElement("meta");
+      keywordsMeta.setAttribute("name", "keywords");
       document.head.appendChild(keywordsMeta);
     }
-    keywordsMeta.setAttribute('content', config.keywords);
+    keywordsMeta.setAttribute("content", config.keywords);
   }
-  
+
   // Update Open Graph tags
   let ogTitle = document.querySelector('meta[property="og:title"]');
   if (!ogTitle) {
-    ogTitle = document.createElement('meta');
-    ogTitle.setAttribute('property', 'og:title');
+    ogTitle = document.createElement("meta");
+    ogTitle.setAttribute("property", "og:title");
     document.head.appendChild(ogTitle);
   }
-  ogTitle.setAttribute('content', config.title);
-  
+  ogTitle.setAttribute("content", config.title);
+
   let ogDescription = document.querySelector('meta[property="og:description"]');
   if (!ogDescription) {
-    ogDescription = document.createElement('meta');
-    ogDescription.setAttribute('property', 'og:description');
+    ogDescription = document.createElement("meta");
+    ogDescription.setAttribute("property", "og:description");
     document.head.appendChild(ogDescription);
   }
-  ogDescription.setAttribute('content', config.description);
-  
+  ogDescription.setAttribute("content", config.description);
+
   let ogUrl = document.querySelector('meta[property="og:url"]');
   if (!ogUrl) {
-    ogUrl = document.createElement('meta');
-    ogUrl.setAttribute('property', 'og:url');
+    ogUrl = document.createElement("meta");
+    ogUrl.setAttribute("property", "og:url");
     document.head.appendChild(ogUrl);
   }
-  ogUrl.setAttribute('content', config.url);
-  
+  ogUrl.setAttribute("content", config.url);
+
   if (config.ogImage) {
     let ogImage = document.querySelector('meta[property="og:image"]');
     if (!ogImage) {
-      ogImage = document.createElement('meta');
-      ogImage.setAttribute('property', 'og:image');
+      ogImage = document.createElement("meta");
+      ogImage.setAttribute("property", "og:image");
       document.head.appendChild(ogImage);
     }
-    ogImage.setAttribute('content', config.ogImage);
+    ogImage.setAttribute("content", config.ogImage);
   }
-  
+
   // Update canonical URL
   let canonical = document.querySelector('link[rel="canonical"]');
   if (!canonical) {
-    canonical = document.createElement('link');
-    canonical.setAttribute('rel', 'canonical');
+    canonical = document.createElement("link");
+    canonical.setAttribute("rel", "canonical");
     document.head.appendChild(canonical);
   }
-  canonical.setAttribute('href', config.url);
-  
+  canonical.setAttribute("href", config.url);
+
   // Update Twitter tags
   let twitterTitle = document.querySelector('meta[name="twitter:title"]');
   if (!twitterTitle) {
-    twitterTitle = document.createElement('meta');
-    twitterTitle.setAttribute('name', 'twitter:title');
+    twitterTitle = document.createElement("meta");
+    twitterTitle.setAttribute("name", "twitter:title");
     document.head.appendChild(twitterTitle);
   }
-  twitterTitle.setAttribute('content', config.title);
-  
-  let twitterDescription = document.querySelector('meta[name="twitter:description"]');
+  twitterTitle.setAttribute("content", config.title);
+
+  let twitterDescription = document.querySelector(
+    'meta[name="twitter:description"]',
+  );
   if (!twitterDescription) {
-    twitterDescription = document.createElement('meta');
-    twitterDescription.setAttribute('name', 'twitter:description');
+    twitterDescription = document.createElement("meta");
+    twitterDescription.setAttribute("name", "twitter:description");
     document.head.appendChild(twitterDescription);
   }
-  twitterDescription.setAttribute('content', config.description);
+  twitterDescription.setAttribute("content", config.description);
 }
 
 export function resetMetaTags() {
   updateMetaTags({
-    title: 'Gateway Links 2K25 - g2k Ultimate Link Directory',
-    description: 'Gateway Links 2K25 - Your ultimate gateway to discover streaming platforms, applications, books, AI tools, games, torrents, and more. All curated links in one place.',
-    url: 'https://gatewaylinks2k25.com/',
-    keywords: 'g2k, gateway links, gateway links 2k25, link aggregator, streaming, apps, books, AI tools, games, torrents'
+    title: "Gateway Links 2K25 - g2k Ultimate Link Directory",
+    description:
+      "Gateway Links 2K25 - Your ultimate gateway to discover streaming platforms, applications, books, AI tools, games, torrents, and more. All curated links in one place.",
+    url: "https://gatewaylinks2k25.com/",
+    keywords:
+      "g2k, gateway links, gateway links 2k25, link aggregator, streaming, apps, books, AI tools, games, torrents",
   });
 }

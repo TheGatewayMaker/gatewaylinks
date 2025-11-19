@@ -20,7 +20,8 @@ const booksCategories = [
       {
         name: "Novel Buddy",
         url: "https://novelbuddy.com/",
-        description: "Read light novels updated daily from Japan, Korea, and China",
+        description:
+          "Read light novels updated daily from Japan, Korea, and China",
       },
       {
         name: "Project Gutenberg",
@@ -83,10 +84,13 @@ export default function Books() {
   useEffect(() => {
     // Update meta tags for SEO
     updateMetaTags({
-      title: "Books & Novels Download - Gateway Links 2K25 | Free Reading Resources",
-      description: "Access a vast collection of e-books, novels, manga, and audiobooks. Gateway Links 2K25 provides curated links to digital reading resources and book download sites.",
+      title:
+        "Books & Novels Download - Gateway Links 2K25 | Free Reading Resources",
+      description:
+        "Access a vast collection of e-books, novels, manga, and audiobooks. Gateway Links 2K25 provides curated links to digital reading resources and book download sites.",
       url: "https://gatewaylinks2k25.com/books",
-      keywords: "e-books, novels, digital books, manga, audiobooks, reading resources, book downloads, literature links"
+      keywords:
+        "e-books, novels, digital books, manga, audiobooks, reading resources, book downloads, literature links",
     });
   }, []);
 
@@ -285,8 +289,8 @@ export default function Books() {
                 Books & Novels
               </h3>
               <p className="text-sm text-[hsl(var(--text-secondary))] leading-relaxed">
-                Access the most extensive collection of reading resources including
-                e-books, novels, manga, and audiobooks.
+                Access the most extensive collection of reading resources
+                including e-books, novels, manga, and audiobooks.
               </p>
             </div>
           </div>
