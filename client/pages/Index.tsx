@@ -197,10 +197,10 @@ export default function Index() {
       {/* Footer */}
       <footer className="border-t border-[hsl(var(--border))] bg-[hsl(var(--bg-secondary))] mt-auto">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8 pb-8 border-b border-[hsl(var(--border))]">
+          <nav className="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8 pb-8 border-b border-[hsl(var(--border))]" aria-label="Footer navigation">
             <div>
               <h3 className="text-sm font-semibold text-[hsl(var(--text-primary))] mb-4">
-                Categories
+                Main Categories
               </h3>
               <ul className="space-y-2 text-sm text-[hsl(var(--text-secondary))]">
                 <li>
@@ -208,7 +208,7 @@ export default function Index() {
                     to="/streaming"
                     className="hover:text-[hsl(var(--accent))] transition-colors"
                   >
-                    Streaming
+                    Streaming Platforms
                   </Link>
                 </li>
                 <li>
@@ -232,14 +232,14 @@ export default function Index() {
                     to="/ai"
                     className="hover:text-[hsl(var(--accent))] transition-colors"
                   >
-                    AI
+                    AI Tools & Resources
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
               <h3 className="text-sm font-semibold text-[hsl(var(--text-primary))] mb-4">
-                More
+                More Resources
               </h3>
               <ul className="space-y-2 text-sm text-[hsl(var(--text-secondary))]">
                 <li>
@@ -247,7 +247,7 @@ export default function Index() {
                     to="/games"
                     className="hover:text-[hsl(var(--accent))] transition-colors"
                   >
-                    Games
+                    Gaming Links
                   </Link>
                 </li>
                 <li>
@@ -255,34 +255,33 @@ export default function Index() {
                     to="/torrents"
                     className="hover:text-[hsl(var(--accent))] transition-colors"
                   >
-                    Torrents
+                    Torrent Resources
                   </Link>
                 </li>
                 <li>
                   <span className="text-[hsl(var(--text-muted))] cursor-not-allowed">
-                    Dark Web
+                    Dark Web (Coming Soon)
                   </span>
                 </li>
                 <li>
                   <span className="text-[hsl(var(--text-muted))] cursor-not-allowed">
-                    Breach & Leaks
+                    Breach & Leaks (Coming Soon)
                   </span>
                 </li>
               </ul>
             </div>
             <div>
               <h3 className="text-sm font-semibold text-[hsl(var(--text-primary))] mb-4">
-                Gateway Links
+                About Gateway Links 2K25
               </h3>
               <p className="text-sm text-[hsl(var(--text-secondary))] leading-relaxed">
-                Your gateway to discover and explore the world's most extensive
-                collection of digital resources.
+                Your ultimate gateway to discover and explore curated links for streaming, applications, books, AI tools, games, torrents, and more. Access everything in one place with our clean, modern interface. Also known as G2K - Your comprehensive link aggregator and directory.
               </p>
             </div>
-          </div>
+          </nav>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2025 Gateway Links 2K25 (G2K). All rights reserved. | A comprehensive link directory and aggregator platform.
             </p>
           </div>
         </div>
