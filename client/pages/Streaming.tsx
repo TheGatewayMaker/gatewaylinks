@@ -10,6 +10,7 @@ import {
   Download,
   Globe,
 } from "lucide-react";
+import { updateMetaTags } from "@/lib/meta-tags";
 
 const streamingCategories = [
   {
