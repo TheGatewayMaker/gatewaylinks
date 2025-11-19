@@ -92,6 +92,21 @@ export default function Index() {
 
   return (
     <div className="min-h-screen flex flex-col transition-colors duration-200">
+      {/* Schema markup for Organization */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Gateway Links 2K25",
+          "description": "Link aggregator directory for streaming, apps, books, AI tools, games, and torrents",
+          "url": "https://gatewaylinks2k25.com",
+          "sameAs": [
+            "https://www.g2k.co",
+            "https://www.g2kgames.net"
+          ]
+        })}
+      </script>
+
       {/* Header */}
       <header className="sticky top-0 z-50 border-b border-[hsl(var(--border))] bg-[hsl(var(--bg-primary))] backdrop-blur-[20px] bg-opacity-80">
         <div className="flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4">
@@ -114,7 +129,7 @@ export default function Index() {
       {/* Main Content */}
       <main className="flex-1 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
         {/* Hero Section */}
-        <div className="mb-16 sm:mb-20 lg:mb-24 relative">
+        <section className="mb-16 sm:mb-20 lg:mb-24 relative">
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-2">
               <h1 className="heading-xl text-[hsl(var(--text-primary))] leading-tight">
@@ -130,7 +145,7 @@ export default function Index() {
               everything in one place with a clean, modern interface.
             </p>
           </div>
-        </div>
+        </section>
 
         {/* Categories Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 lg:gap-6">
