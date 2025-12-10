@@ -1,27 +1,99 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Sun, Moon, ArrowLeft, Gamepad2 } from "lucide-react";
+import {
+  Sun,
+  Moon,
+  ArrowLeft,
+  Gamepad2,
+  Monitor,
+  Download,
+  Zap,
+} from "lucide-react";
 import { updateMetaTags } from "@/lib/meta-tags";
 
 const gamesCategories = [
   {
-    icon: Gamepad2,
-    title: "Download Games For Free",
-    count: "14 resources",
+    icon: Monitor,
+    title: "Browser Play",
+    count: "8 platforms",
     links: [
-      { name: "Anker Games", url: "https://ankergames.net/" },
+      { name: "GamesFrog", url: "https://gamesfrog.com/" },
+      { name: "Poki", url: "https://poki.com/" },
+      { name: "Addicting Games", url: "https://www.addictinggames.com/" },
+      { name: "Arkadium Games", url: "https://www.arkadium.com/" },
+      { name: "Cool Math Games", url: "https://www.coolmathgames.com/" },
+      { name: "CrazyGames", url: "https://www.crazygames.com/" },
+      { name: "Free Games Max", url: "https://www.freegamesmax.com/" },
+      { name: "io Games", url: "https://iogames.space/" },
+    ],
+  },
+  {
+    icon: Download,
+    title: "Direct Downloads",
+    count: "50+ resources",
+    links: [
+      { name: "AnkerGames", url: "https://ankergames.net/" },
+      { name: "Abandonware Games", url: "https://abandonwaregames.net/" },
+      { name: "AtopGames", url: "https://atopgames.com/" },
+      { name: "AstralGames", url: "https://astral-games.xyz/" },
+      { name: "CG-gamesPC", url: "https://www.cg-gamespc.com/" },
+      { name: "CS.RIN.RU: Steam Underground", url: "https://cs.rin.ru/forum/" },
+      { name: "ElAmigos", url: "https://elamigos.site/" },
+      { name: "ElEnemigos", url: "https://elenemigos.com/" },
+      { name: "Erai-raws", url: "https://www.erai-raws.info/" },
+      { name: "Fluxy Repacks", url: "https://fluxyrepacks.xyz/" },
       { name: "Game Bounty", url: "https://gamebounty.world/" },
-      { name: "Games Pack", url: "https://gamespack.net/" },
-      { name: "STEAMRIP", url: "https://steamrip.com/" },
-      { name: "FileCR", url: "https://filecr.com" },
-      { name: "SteamUnderground", url: "https://steamunderground.net/" },
-      { name: "UnderGround Games", url: "https://undergroundgames.net/" },
+      { name: "Gamedie", url: "https://gamdie.com/" },
+      { name: "GamesDrive", url: "https://gamesdrive.net/" },
+      { name: "GamePCFull", url: "https://gamepcfull.com/" },
+      { name: "GAMESPACK", url: "https://gamespack.net/" },
+      { name: "Games4U", url: "https://games4u.org/" },
+      { name: "games 4 u", url: "https://g4u.to/" },
+      { name: "gamezdl", url: "https://gamezdl.cc/" },
+      { name: "Get Free Games", url: "https://getfreegames.net/" },
+      { name: "GLOAD", url: "https://gload.to/" },
+      { name: "Gnarly Repacks", url: "https://rentry.org/gnarly_repacks" },
+      { name: "GOG Games", url: "https://gog-games.to/" },
+      { name: "GoMorGames", url: "https://gomorgames.com" },
+      { name: "KaranPC", url: "https://karanpc.com/" },
+      { name: "M4CKD0GE Repacks", url: "https://m4ckd0ge-repacks.site/" },
+      { name: "My Abandonware", url: "https://www.myabandonware.com/" },
+      { name: "Old Games Download", url: "https://oldgamesdownload.com/" },
+      { name: "Old-Games.RU", url: "https://www.old-games.ru/" },
+      { name: "Ova Games", url: "https://www.ovagames.com/" },
+      { name: "PiviGames", url: "https://pivigames.blog/" },
       { name: "Reloaded Steam", url: "https://reloadedsteam.com/" },
       { name: "Repack-Games", url: "https://repack-games.com/" },
-      { name: "FitGirl Repacks", url: "https://fitgirl-repacks.site/" },
-      { name: "CG-gamesPC", url: "https://www.cg-gamespc.com/" },
-      { name: "Games4U", url: "https://games4u.org/" },
-      { name: "Get Free Games", url: "https://getfreegames.net/" },
+      { name: "Repacklab", url: "https://repacklab.com/" },
+      { name: "Rexa Games", url: "https://rexagames.com/" },
+      { name: "STEAMRIP", url: "https://steamrip.com/" },
+      { name: "Steam-Cracked", url: "https://steam-cracked.com/" },
+      { name: "SteamGG", url: "https://steamgg.net/" },
+      { name: "SteamOra", url: "https://steamora.net/" },
+      { name: "SteamUnderground", url: "https://steamunderground.net/" },
+      { name: "Stevv Game", url: "https://www.stevvgame.com/" },
+      { name: "The Collection Chamber", url: "https://collectionchamber.blogspot.com/" },
+      { name: "Torrminatorr", url: "https://torrminatorr.com/" },
+      { name: "Triah Games", url: "https://triahgames.com/" },
+      { name: "UnderGround Games", url: "https://undergroundgames.net/" },
+      { name: "UnionCrax", url: "https://union-crax.xyz/" },
+      { name: "Windows 7 Games", url: "https://win7games.com/" },
+      { name: "WorldofPCGames", url: "https://worldofpcgames.com/" },
+    ],
+  },
+  {
+    icon: Gamepad2,
+    title: "Game Managers & Launchers",
+    count: "8 tools",
+    links: [
+      { name: "Ascendara", url: "https://ascendara.app/" },
+      { name: "Heroic Games Launcher", url: "https://heroicgameslauncher.com/" },
+      { name: "Playnite", url: "https://playnite.link/" },
+      { name: "Fit Launcher", url: "https://github.com/CarrotRub/Fit-Launcher/" },
+      { name: "GameVault", url: "https://gamevau.lt/" },
+      { name: "GOG GALAXY 2.0", url: "https://www.gog.com/galaxy" },
+      { name: "LaunchBox", url: "https://www.launchbox-app.com/" },
+      { name: "Project GLD", url: "https://y0urd34th.github.io/Project-GLD/" },
     ],
   },
 ];
@@ -125,20 +197,8 @@ export default function Games() {
                       rel="noopener noreferrer"
                       className="group flex items-center gap-2 px-3 py-2.5 rounded-md text-sm font-medium text-[hsl(var(--text-secondary))] transition-all duration-300 hover:text-[hsl(var(--text-primary))] hover:bg-[hsl(var(--bg-secondary))]"
                     >
+                      <span className="text-lg leading-none">•</span>
                       <span>{link.name}</span>
-                      <svg
-                        className="w-4 h-4 opacity-40 transition-all duration-300 group-hover:opacity-100"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3v-6"
-                        />
-                      </svg>
                     </a>
                   ))}
                 </div>
