@@ -12,8 +12,6 @@ export default function CategoryPlaceholder({
   title,
   isDevelopment = false,
 }: CategoryPlaceholderProps) {
-  const [theme, setTheme] = useState<"light" | "dark">("light");
-
   useEffect(() => {
     // Update meta tags for SEO based on category
     const categoryDescriptions: { [key: string]: string } = {
@@ -45,21 +43,8 @@ export default function CategoryPlaceholder({
   }, [title]);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
-    const prefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)",
-    ).matches;
-    const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
-    setTheme(initialTheme);
-    document.documentElement.setAttribute("data-theme", initialTheme);
+    document.documentElement.setAttribute("data-theme", "dark");
   }, []);
-
-  const toggleTheme = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
-    setTheme(newTheme);
-    document.documentElement.setAttribute("data-theme", newTheme);
-    localStorage.setItem("theme", newTheme);
-  };
 
   return (
     <div className="min-h-screen flex flex-col transition-colors duration-200">
@@ -73,13 +58,6 @@ export default function CategoryPlaceholder({
             <ArrowLeft size={18} />
             Back
           </Link>
-          <button
-            onClick={toggleTheme}
-            className="p-2 rounded-md transition-all duration-200 hover:bg-[hsl(var(--bg-secondary))] text-[hsl(var(--text-secondary))] hover:text-[hsl(var(--text-primary))]"
-            aria-label="Toggle theme"
-          >
-            {theme === "light" ? <Moon size={20} /> : <Sun size={20} />}
-          </button>
         </div>
       </header>
 
