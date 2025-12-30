@@ -43,33 +43,22 @@ export function ParticleBackground() {
     radius: number,
     opacity: number
   ) => {
-    // Outer glow for depth
-    const glowGradient = ctx.createRadialGradient(x, y, 0, x, y, radius * 3);
-    glowGradient.addColorStop(0, `rgba(200, 220, 255, ${opacity * 0.15})`);
-    glowGradient.addColorStop(1, `rgba(200, 220, 255, 0)`);
-    ctx.fillStyle = glowGradient;
+    // Subtle glow
+    ctx.fillStyle = `rgba(150, 180, 255, ${opacity * 0.25})`;
     ctx.beginPath();
-    ctx.arc(x, y, radius * 3, 0, Math.PI * 2);
+    ctx.arc(x, y, radius * 2.5, 0, Math.PI * 2);
     ctx.fill();
 
-    // Main star glow
-    const mainGlow = ctx.createRadialGradient(x, y, 0, x, y, radius * 1.8);
-    mainGlow.addColorStop(0, `rgba(230, 240, 255, ${opacity * 0.5})`);
-    mainGlow.addColorStop(0.7, `rgba(200, 230, 255, ${opacity * 0.15})`);
-    mainGlow.addColorStop(1, `rgba(200, 230, 255, 0)`);
-    ctx.fillStyle = mainGlow;
-    ctx.beginPath();
-    ctx.arc(x, y, radius * 1.8, 0, Math.PI * 2);
-    ctx.fill();
-
-    // Star core
-    const coreGradient = ctx.createRadialGradient(x, y, 0, x, y, radius);
-    coreGradient.addColorStop(0, `rgba(255, 255, 255, ${opacity})`);
-    coreGradient.addColorStop(0.4, `rgba(220, 240, 255, ${opacity * 0.8})`);
-    coreGradient.addColorStop(1, `rgba(150, 200, 255, ${opacity * 0.2})`);
-    ctx.fillStyle = coreGradient;
+    // Main star core
+    ctx.fillStyle = `rgba(255, 255, 255, ${opacity})`;
     ctx.beginPath();
     ctx.arc(x, y, radius, 0, Math.PI * 2);
+    ctx.fill();
+
+    // Inner bright core
+    ctx.fillStyle = `rgba(220, 240, 255, ${opacity * 0.7})`;
+    ctx.beginPath();
+    ctx.arc(x, y, radius * 0.6, 0, Math.PI * 2);
     ctx.fill();
   };
 
