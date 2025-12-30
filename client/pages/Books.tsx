@@ -86,6 +86,8 @@ const booksCategories = [
     links: [
       { name: "ebook-hunter", url: "https://ebook-hunter.org/" },
       { name: "ForCoder", url: "https://forcoder.net/" },
+      { name: "ForCoder (Alt)", url: "https://coderprog.com/" },
+      { name: "ForCoder (Alt 2)", url: "https://scanlibs.com/" },
       { name: "ManyBooks", url: "https://manybooks.net/" },
       { name: "OceanofPDF", url: "https://oceanofpdf.com/" },
       { name: "Open Library", url: "https://openlibrary.org/" },
