@@ -167,7 +167,7 @@ const booksCategories = [
   {
     icon: Headphones,
     title: "Audiobooks (Streaming)",
-    count: "14 resources",
+    count: "15 resources",
     links: [
       { name: "AudioAZ", url: "https://audioaz.com/" },
       { name: "AppAudioBooks", url: "https://appaudiobooks.com/" },
@@ -183,6 +183,7 @@ const booksCategories = [
       { name: "Hot Audiobooks", url: "https://hotaudiobooks.com/" },
       { name: "LibriVox", url: "https://librivox.org/" },
       { name: "Storynory", url: "https://www.storynory.com/" },
+      { name: "Tokybook", url: "https://tokybook.com/" },
     ],
   },
 ];
