@@ -96,11 +96,11 @@ export function updateMetaTags(config: MetaTagConfig) {
 
 export function resetMetaTags() {
   updateMetaTags({
-    title: "Gateway Links 2K25 - g2k Ultimate Link Directory",
+    title: "Gateway Links 2K26 - g2k Ultimate Link Directory",
     description:
-      "Gateway Links 2K25 - Your ultimate gateway to discover streaming platforms, applications, books, AI tools, games, torrents, and more. All curated links in one place.",
-    url: "https://gatewaylinks2k25.com/",
+      "Gateway Links 2K26 - Your ultimate gateway to discover streaming platforms, applications, books, AI tools, games, torrents, and more. All curated links in one place.",
+    url: "https://gatewaylinks2k26.com/",
     keywords:
-      "g2k, gateway links, gateway links 2k25, link aggregator, streaming, apps, books, AI tools, games, torrents",
+      "g2k, gateway links, gateway links 2k26, link aggregator, streaming, apps, books, AI tools, games, torrents",
   });
 }
