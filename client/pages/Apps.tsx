@@ -27,10 +27,10 @@ export default function Apps() {
     // Update meta tags for SEO
     updateMetaTags({
       title:
-        "Apps & Software Download - Gateway Links 2K25 | Free Applications",
+        "Apps & Software Download - Gateway Links 2K26 | Free Applications",
       description:
-        "Download essential applications and software tools. Gateway Links 2K25 provides curated links to productivity apps, development software, and utility tools.",
-      url: "https://gatewaylinks2k25.com/apps",
+        "Download essential applications and software tools. Gateway Links 2K26 provides curated links to productivity apps, development software, and utility tools.",
+      url: "https://gatewaylinks2k26.com/apps",
       keywords:
         "app downloads, software downloads, free applications, productivity apps, development software, utility tools, apps & softwares",
     });
@@ -199,7 +199,7 @@ export default function Apps() {
           </div>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2026 Gateway Links 2K26. All rights reserved.
             </p>
           </div>
         </div>

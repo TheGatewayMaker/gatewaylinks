@@ -69,10 +69,10 @@ export default function AI() {
     // Update meta tags for SEO
     updateMetaTags({
       title:
-        "AI Tools & Resources - Gateway Links 2K25 | Artificial Intelligence",
+        "AI Tools & Resources - Gateway Links 2K26 | Artificial Intelligence",
       description:
-        "Discover curated AI tools, machine learning resources, and intelligent applications. Gateway Links 2K25 provides the best collection of AI platforms for chatbots, image generation, and coding assistance.",
-      url: "https://gatewaylinks2k25.com/ai",
+        "Discover curated AI tools, machine learning resources, and intelligent applications. Gateway Links 2K26 provides the best collection of AI platforms for chatbots, image generation, and coding assistance.",
+      url: "https://gatewaylinks2k26.com/ai",
       keywords:
         "AI tools, artificial intelligence, machine learning, AI resources, AI platforms, chatbots, image generation AI, coding AI",
     });
@@ -254,7 +254,7 @@ export default function AI() {
           </div>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2026 Gateway Links 2K26. All rights reserved.
             </p>
           </div>
         </div>
