@@ -35,10 +35,10 @@ export default function Torrents() {
   useEffect(() => {
     // Update meta tags for SEO
     updateMetaTags({
-      title: "Torrent Resources - Gateway Links 2K25 | Torrent Sites",
+      title: "Torrent Resources - Gateway Links 2K26 | Torrent Sites",
       description:
-        "Access organized torrent resources and links for content sharing. Gateway Links 2K25 curates the best torrent platforms and torrent sites.",
-      url: "https://gatewaylinks2k25.com/torrents",
+        "Access organized torrent resources and links for content sharing. Gateway Links 2K26 curates the best torrent platforms and torrent sites.",
+      url: "https://gatewaylinks2k26.com/torrents",
       keywords:
         "torrent links, torrent sites, torrent resources, p2p sharing, torrent platforms, download torrents",
     });
@@ -207,7 +207,7 @@ export default function Torrents() {
           </div>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2026 Gateway Links 2K26. All rights reserved.
             </p>
           </div>
         </div>

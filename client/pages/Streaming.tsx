@@ -141,10 +141,10 @@ export default function Streaming() {
     // Update meta tags for SEO
     updateMetaTags({
       title:
-        "Streaming Resources - Gateway Links 2K25 | Free Movies & TV Shows",
+        "Streaming Resources - Gateway Links 2K26 | Free Movies & TV Shows",
       description:
-        "Discover curated streaming platforms and download sites for movies, TV shows, and online content. Gateway Links 2K25 provides the ultimate collection of streaming resources.",
-      url: "https://gatewaylinks2k25.com/streaming",
+        "Discover curated streaming platforms and download sites for movies, TV shows, and online content. Gateway Links 2K26 provides the ultimate collection of streaming resources.",
+      url: "https://gatewaylinks2k26.com/streaming",
       keywords:
         "streaming sites, movie streaming, TV shows, free movies, watch online, streaming links, cinema streaming",
     });
@@ -313,7 +313,7 @@ export default function Streaming() {
           </div>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2026 Gateway Links 2K26. All rights reserved.
             </p>
           </div>
         </div>

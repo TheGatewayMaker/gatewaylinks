@@ -394,7 +394,7 @@ export default function Books() {
           </div>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2026 Gateway Links 2K26. All rights reserved.
             </p>
           </div>
         </div>
