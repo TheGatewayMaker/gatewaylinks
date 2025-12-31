@@ -68,12 +68,12 @@ export default function Index() {
   useEffect(() => {
     // Update meta tags for SEO
     updateMetaTags({
-      title: "Gateway Links 2K25 - g2k Ultimate Link Directory",
+      title: "Gateway Links 2K26 - g2k Ultimate Link Directory",
       description:
-        "Gateway Links 2K25 - Your ultimate gateway to discover streaming platforms, applications, books, AI tools, games, torrents, and more. All curated links in one place.",
-      url: "https://gatewaylinks2k25.com/",
+        "Gateway Links 2K26 - Your ultimate gateway to discover streaming platforms, applications, books, AI tools, games, torrents, and more. All curated links in one place.",
+      url: "https://gatewaylinks2k26.com/",
       keywords:
-        "g2k, gateway links, gateway links 2k25, link aggregator, streaming, apps, books, AI tools, games, torrents",
+        "g2k, gateway links, gateway links 2k26, link aggregator, streaming, apps, books, AI tools, games, torrents",
     });
   }, []);
 
@@ -94,10 +94,10 @@ export default function Index() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          name: "Gateway Links 2K25",
+          name: "Gateway Links 2K26",
           description:
             "Link aggregator directory for streaming, apps, books, AI tools, games, and torrents",
-          url: "https://gatewaylinks2k25.com",
+          url: "https://gatewaylinks2k26.com",
           sameAs: ["https://www.g2k.co", "https://www.g2kgames.net"],
         })}
       </script>
@@ -107,9 +107,14 @@ export default function Index() {
         <div className="flex items-center justify-between px-4 sm:px-6 lg:px-8 py-4">
           <Link
             to="/"
-            className="text-sm font-black text-[hsl(var(--text-primary))] hover:text-[hsl(var(--text-primary))] transition-colors duration-200"
+            className="flex items-center gap-3 text-sm font-black text-[hsl(var(--text-primary))] hover:text-[hsl(var(--text-primary))] transition-colors duration-200"
           >
-            GATEWAY LINKS 2K25
+            <img
+              src="https://i.ibb.co/HTCvWrp3/g2k26logooriginal.png"
+              alt="Gateway Links 2K26 Logo"
+              className="h-8 w-8 object-contain"
+            />
+            GATEWAY LINKS 2K26
           </Link>
         </div>
       </header>
@@ -124,7 +129,7 @@ export default function Index() {
                 Gateway Links
               </h1>
               <h2 className="heading-lg text-[hsl(var(--text-primary))] leading-tight opacity-80">
-                2K25
+                2K26
               </h2>
             </div>
             <p className="text-base sm:text-lg text-[hsl(var(--text-secondary))] max-w-2xl leading-relaxed">
@@ -263,7 +268,7 @@ export default function Index() {
             </div>
             <div>
               <h3 className="text-sm font-semibold text-[hsl(var(--text-primary))] mb-4">
-                About Gateway Links 2K25
+                About Gateway Links 2K26
               </h3>
               <p className="text-sm text-[hsl(var(--text-secondary))] leading-relaxed">
                 Your ultimate gateway to discover and explore curated links for
@@ -276,7 +281,7 @@ export default function Index() {
           </nav>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25 (G2K). All rights reserved. | A
+              © 2026 Gateway Links 2K26 (G2K). All rights reserved. | A
               comprehensive link directory and aggregator platform.
             </p>
           </div>
