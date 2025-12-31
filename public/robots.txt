@@ -14,5 +14,5 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://gatewaylinks2k25.com/sitemap.xml
-Sitemap: https://www.gatewaylinks2k25.com/sitemap.xml
+Sitemap: https://gatewaylinks2k26.com/sitemap.xml
+Sitemap: https://www.gatewaylinks2k26.com/sitemap.xml

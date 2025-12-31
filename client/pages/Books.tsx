@@ -215,10 +215,10 @@ export default function Books() {
     // Update meta tags for SEO
     updateMetaTags({
       title:
-        "Books & Novels Download - Gateway Links 2K25 | Free Reading Resources",
+        "Books & Novels Download - Gateway Links 2K26 | Free Reading Resources",
       description:
-        "Access a vast collection of e-books, novels, manga, and audiobooks. Gateway Links 2K25 provides curated links to digital reading resources and book download sites.",
-      url: "https://gatewaylinks2k25.com/books",
+        "Access a vast collection of e-books, novels, manga, and audiobooks. Gateway Links 2K26 provides curated links to digital reading resources and book download sites.",
+      url: "https://gatewaylinks2k26.com/books",
       keywords:
         "e-books, novels, digital books, manga, audiobooks, reading resources, book downloads, literature links",
     });
@@ -394,7 +394,7 @@ export default function Books() {
           </div>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2026 Gateway Links 2K26. All rights reserved.
             </p>
           </div>
         </div>

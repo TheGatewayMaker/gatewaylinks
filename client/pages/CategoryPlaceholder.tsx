@@ -16,28 +16,28 @@ export default function CategoryPlaceholder({
     // Update meta tags for SEO based on category
     const categoryDescriptions: { [key: string]: string } = {
       "Apps & Softwares":
-        "Find and download essential applications and software tools. Gateway Links 2K25 provides curated links to productivity apps, development software, and utilities.",
+        "Find and download essential applications and software tools. Gateway Links 2K26 provides curated links to productivity apps, development software, and utilities.",
       "Books & Novels":
-        "Access a vast collection of e-books, novels, and digital reading resources. Discover literature links curated by Gateway Links 2K25.",
+        "Access a vast collection of e-books, novels, and digital reading resources. Discover literature links curated by Gateway Links 2K26.",
       "Artificial Intelligence":
-        "Explore cutting-edge AI tools, machine learning resources, and intelligent applications. Gateway Links 2K25 brings the best AI tools in one place.",
+        "Explore cutting-edge AI tools, machine learning resources, and intelligent applications. Gateway Links 2K26 brings the best AI tools in one place.",
       Games:
-        "Browse gaming links and resources for all types of games. Gateway Links 2K25 provides comprehensive gaming platform and download site links.",
+        "Browse gaming links and resources for all types of games. Gateway Links 2K26 provides comprehensive gaming platform and download site links.",
       Torrents:
-        "Access organized torrent resources and links for content sharing. Gateway Links 2K25 curates the best torrent platforms and sites.",
-      "Dark Web": "Coming soon to Gateway Links 2K25.",
-      "Breach & Leaks": "Coming soon to Gateway Links 2K25.",
+        "Access organized torrent resources and links for content sharing. Gateway Links 2K26 curates the best torrent platforms and sites.",
+      "Dark Web": "Coming soon to Gateway Links 2K26.",
+      "Breach & Leaks": "Coming soon to Gateway Links 2K26.",
     };
 
     const description =
       categoryDescriptions[title] ||
-      `Explore ${title} resources on Gateway Links 2K25`;
-    const keywords = `${title.toLowerCase()}, ${title} links, ${title} resources, gateway links 2k25`;
+      `Explore ${title} resources on Gateway Links 2K26`;
+    const keywords = `${title.toLowerCase()}, ${title} links, ${title} resources, gateway links 2k26`;
 
     updateMetaTags({
-      title: `${title} - Gateway Links 2K25 | Curated Links`,
+      title: `${title} - Gateway Links 2K26 | Curated Links`,
       description: description,
-      url: `https://gatewaylinks2k25.com/${title.toLowerCase().replace(/[^a-z0-9]/g, "")}`,
+      url: `https://gatewaylinks2k26.com/${title.toLowerCase().replace(/[^a-z0-9]/g, "")}`,
       keywords: keywords,
     });
   }, [title]);
@@ -184,7 +184,7 @@ export default function CategoryPlaceholder({
           </div>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2026 Gateway Links 2K26. All rights reserved.
             </p>
           </div>
         </div>

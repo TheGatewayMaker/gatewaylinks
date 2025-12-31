@@ -123,10 +123,10 @@ export default function Games() {
   useEffect(() => {
     // Update meta tags for SEO
     updateMetaTags({
-      title: "Free Games Download - Gateway Links 2K25 | Gaming Links",
+      title: "Free Games Download - Gateway Links 2K26 | Gaming Links",
       description:
-        "Browse gaming links and resources for all types of games. Gateway Links 2K25 provides curated gaming platform and free game download site links.",
-      url: "https://gatewaylinks2k25.com/games",
+        "Browse gaming links and resources for all types of games. Gateway Links 2K26 provides curated gaming platform and free game download site links.",
+      url: "https://gatewaylinks2k26.com/games",
       keywords:
         "game links, gaming platforms, video games, game downloads, free games, PC games, game resources, gaming sites",
     });
@@ -295,7 +295,7 @@ export default function Games() {
           </div>
           <div className="text-center">
             <p className="text-sm text-[hsl(var(--text-muted))]">
-              © 2025 Gateway Links 2K25. All rights reserved.
+              © 2026 Gateway Links 2K26. All rights reserved.
             </p>
           </div>
         </div>
