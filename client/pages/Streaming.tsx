@@ -30,7 +30,7 @@ const streamingCategories = [
     title: "Streaming Services",
     count: "45+ platforms",
     links: [
-      { name: "1Shows", url: "https://www.1shows.live/" },
+      { name: "1Shows", url: "https://www.1shows.nl/" },
       { name: "1Movies", url: "https://1movies.bz/" },
       { name: "7Xcinema", url: "https://7xcinema.com/" },
       { name: "ABFlix", url: "https://abflix.app/" },
