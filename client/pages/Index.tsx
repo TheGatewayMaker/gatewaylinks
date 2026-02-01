@@ -255,9 +255,12 @@ export default function Index() {
                   </Link>
                 </li>
                 <li>
-                  <span className="text-[hsl(var(--text-muted))] cursor-not-allowed">
-                    Dark Web (Coming Soon)
-                  </span>
+                  <Link
+                    to="/darkweb"
+                    className="hover:text-[hsl(var(--accent))] transition-colors"
+                  >
+                    Dark Web
+                  </Link>
                 </li>
                 <li>
                   <span className="text-[hsl(var(--text-muted))] cursor-not-allowed">
