@@ -7,7 +7,7 @@ const torrentsCategories = [
   {
     icon: DownloadCloud,
     title: "Torrent Sites",
-    count: "18 resources",
+    count: "23 resources",
     links: [
       { name: "ABC Torrent", url: "https://abctorrents.xyz/" },
       { name: "Appnetica", url: "https://appnetica.com/" },
