@@ -32,6 +32,7 @@ const streamingCategories = [
     links: [
       { name: "1Shows", url: "https://www.1shows.nl/" },
       { name: "1Movies", url: "https://1movies.bz/" },
+      { name: "456movie", url: "https://456movie.net/" },
       { name: "7Xcinema", url: "https://7xcinema.com/" },
       { name: "ABFlix", url: "https://abflix.app/" },
       { name: "Autoembed", url: "https://watch.autoembed.cc/" },
