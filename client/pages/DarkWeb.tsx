@@ -24,8 +24,9 @@ export default function DarkWeb() {
   }
 
   return (
-    <div style={{minHeight: "100vh", background: "#1a1a1a"}}>
-      <PasscodeModal
+    <div style={{minHeight: "100vh", background: "#1a1a1a", padding: "20px"}}>
+      <h1>Dark Web Page (no modals)</h1>
+      {/* <PasscodeModal
         isOpen={showPasscodeModal}
         onClose={() => navigate("/")}
         onSuccess={handlePasscodeSuccess}
@@ -33,7 +34,7 @@ export default function DarkWeb() {
       <WarningModal
         isOpen={showWarningModal}
         onConfirm={handleWarningConfirm}
-      />
+      /> */}
     </div>
   );
 }
