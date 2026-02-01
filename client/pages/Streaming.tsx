@@ -77,6 +77,10 @@ const streamingCategories = [
         name: "movie-web",
         url: "https://erynith.github.io/movie-web-instances/",
       },
+      {
+        name: "movie-web (Alt)",
+        url: "https://docs.undi.rest/instances",
+      },
       { name: "NEPU", url: "https://nepu.to/" },
       { name: "Nunflix", url: "https://nunflix-ey9.pages.dev/" },
       { name: "PopcornMovies", url: "https://popcornmovies.org/" },
