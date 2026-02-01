@@ -103,10 +103,7 @@ export function PasscodeModal({
             >
               Cancel
             </Button>
-            <Button
-              type="submit"
-              disabled={isLoading || code.length !== 6}
-            >
+            <Button type="submit" disabled={isLoading || code.length !== 6}>
               {isLoading ? "Verifying..." : "Done"}
             </Button>
           </div>

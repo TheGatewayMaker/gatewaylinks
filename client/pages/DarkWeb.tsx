@@ -20,11 +20,11 @@ export default function DarkWeb() {
   };
 
   if (token) {
-    return <div style={{padding: "20px"}}>Dark Web Content</div>;
+    return <div style={{ padding: "20px" }}>Dark Web Content</div>;
   }
 
   return (
-    <div style={{minHeight: "100vh", background: "#1a1a1a"}}>
+    <div style={{ minHeight: "100vh", background: "#1a1a1a" }}>
       <PasscodeModal
         isOpen={showPasscodeModal}
         onClose={() => navigate("/")}

@@ -30,10 +30,7 @@ export function WarningModal({ isOpen, onConfirm }: WarningModalProps) {
             involved.
           </p>
 
-          <Button
-            onClick={onConfirm}
-            className="w-full"
-          >
+          <Button onClick={onConfirm} className="w-full">
             I Understand
           </Button>
         </div>
