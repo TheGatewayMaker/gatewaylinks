@@ -2,6 +2,7 @@ import "dotenv/config";
 import express from "express";
 import cors from "cors";
 import { handleDemo } from "./routes/demo";
+import { verifyPasscodeHandler, verifyTokenHandler } from "./routes/darkweb";
 
 export function createServer() {
   const app = express();
