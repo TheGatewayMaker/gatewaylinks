@@ -11,6 +11,8 @@ const torrentsCategories = [
     links: [
       { name: "ABC Torrent", url: "https://abctorrents.xyz/" },
       { name: "Appnetica", url: "https://appnetica.com/" },
+      { name: "EZTV", url: "https://eztvx.to/" },
+      { name: "EZTV (Alt)", url: "https://eztvstatus.org/" },
       { name: "BT4gpr", url: "https://bt4gprx.com/" },
       { name: "ByXatab", url: "https://byxatab.com/" },
       { name: "Cloud Torrent", url: "https://cloudtorrents.com/" },
