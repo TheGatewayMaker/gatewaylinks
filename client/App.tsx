@@ -16,7 +16,6 @@ import AI from "./pages/AI";
 import Games from "./pages/Games";
 import Torrents from "./pages/Torrents";
 import DarkWeb from "./pages/DarkWeb";
-import Test from "./pages/Test";
 import CategoryPlaceholder from "./pages/CategoryPlaceholder";
 
 const queryClient = new QueryClient();
