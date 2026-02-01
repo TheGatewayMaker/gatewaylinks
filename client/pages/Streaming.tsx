@@ -93,6 +93,7 @@ const streamingCategories = [
       { name: "SFlix", url: "https://sflix.fi/" },
       { name: "ShowboxMovies", url: "https://www.showboxmovies.net/" },
       { name: "Smashystream", url: "https://smashystream.xyz/" },
+      { name: "Smashystream (Alt)", url: "https://flix.smashystream.xyz/" },
       { name: "SpenFlix", url: "https://watch.spencerdevs.xyz/" },
       { name: "Streamflix", url: "https://watch.streamflix.one/" },
       { name: "Tmovie", url: "https://tmovie.tv/" },
