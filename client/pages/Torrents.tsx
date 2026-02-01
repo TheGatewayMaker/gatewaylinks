@@ -23,6 +23,7 @@ const torrentsCategories = [
       { name: "Free GOG PC Games", url: "https://freegogpcgames.com/" },
       { name: "KaOsKrew", url: "https://kaoskrew.org/" },
       { name: "Lime Torrent", url: "https://www.limetorrents.lol/" },
+      { name: "MSearch", url: "https://msearch.vercel.app/" },
       { name: "RuTor", url: "https://rutor.info/" },
       { name: "Tapochek", url: "https://tapochek.net/" },
       { name: "Torrent Games", url: "https://torrent-games.games/" },
