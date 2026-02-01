@@ -65,6 +65,7 @@ const streamingCategories = [
       { name: "HydraHD (Alt)", url: "https://hydrahd.info/" },
       { name: "Hurawatch", url: "https://hurawatchz.to/" },
       { name: "KipFlix", url: "https://kipflix.xyz/" },
+      { name: "kipflix (Alt)", url: "https://kipwatch.xyz/" },
       { name: "KipStream", url: "https://kipstream.lol/" },
       { name: "LetStream", url: "https://www.letstream.site/" },
       { name: "LookMovie", url: "https://lookmovie2.to/" },
