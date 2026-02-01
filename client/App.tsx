@@ -15,6 +15,7 @@ import Books from "./pages/Books";
 import AI from "./pages/AI";
 import Games from "./pages/Games";
 import Torrents from "./pages/Torrents";
+import DarkWeb from "./pages/DarkWeb";
 import CategoryPlaceholder from "./pages/CategoryPlaceholder";
 
 const queryClient = new QueryClient();
@@ -34,10 +35,7 @@ const App = () => (
           <Route path="/ai" element={<AI />} />
           <Route path="/games" element={<Games />} />
           <Route path="/torrents" element={<Torrents />} />
-          <Route
-            path="/darkweb"
-            element={<CategoryPlaceholder title="Dark Web" isDevelopment />}
-          />
+          <Route path="/darkweb" element={<DarkWeb />} />
           <Route
             path="/breaches"
             element={
