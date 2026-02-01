@@ -37,6 +37,7 @@ const App = () => (
           <Route path="/games" element={<Games />} />
           <Route path="/torrents" element={<Torrents />} />
           <Route path="/darkweb" element={<DarkWeb />} />
+          <Route path="/test" element={<Test />} />
           <Route
             path="/breaches"
             element={
