@@ -53,8 +53,8 @@ const categories = [
   {
     name: "Dark Web",
     path: "/darkweb",
-    description: "Coming soon",
-    disabled: true,
+    description:
+      "Access restricted dark web resources with secure passcode authentication",
   },
   {
     name: "Breach & Leaks",
