@@ -137,7 +137,7 @@ const streamingCategories = [
   {
     icon: Globe,
     title: "East / South Asian Drama",
-    count: "6 platforms",
+    count: "9 platforms",
     links: [
       { name: "AsiaFlix", url: "https://asiaflix.in/" },
       { name: "AsiaFlix 2", url: "https://asiaflix.net/" },
