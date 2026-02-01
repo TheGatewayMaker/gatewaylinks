@@ -35,6 +35,8 @@ const streamingCategories = [
       { name: "456movie", url: "https://456movie.net/" },
       { name: "7Xcinema", url: "https://7xcinema.com/" },
       { name: "ABFlix", url: "https://abflix.app/" },
+      { name: "ArcFlix", url: "https://arcflix.space/" },
+      { name: "ArcFlix (Alt)", url: "https://arcflix.net/" },
       { name: "Autoembed", url: "https://watch.autoembed.cc/" },
       { name: "Beech.Watch", url: "https://beech.watch/" },
       { name: "Bingeflix", url: "https://bingeflix.tv/" },
