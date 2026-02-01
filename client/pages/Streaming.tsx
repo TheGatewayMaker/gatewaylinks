@@ -128,7 +128,6 @@ const streamingCategories = [
       { name: "UHDMovies", url: "https://uhdmovies.loan/" },
       { name: "Vadapav", url: "https://vadapav.mov/" },
       { name: "Vega Movies", url: "https://vegamovies.land/" },
-      { name: "Vegamovies", url: "https://vegamovies.ms/" },
       { name: "Vidnaija", url: "https://vidnaija.com.ng/" },
       { name: "mkvCinemas", url: "https://mkvcinemas.how/" },
       { name: "UHDMovies (Fans)", url: "https://uhdmovies.fans/" },
