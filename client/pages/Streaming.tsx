@@ -89,6 +89,7 @@ const streamingCategories = [
       { name: "Putlocker", url: "https://putlocker.pe/" },
       { name: "Rive", url: "https://rivestream.xyz/" },
       { name: "Rive (Alt)", url: "https://cinemaos-v2.vercel.app/" },
+      { name: "Screenopps", url: "https://screenopps.com/" },
       { name: "SFlix", url: "https://sflix.fi/" },
       { name: "ShowboxMovies", url: "https://www.showboxmovies.net/" },
       { name: "Smashystream", url: "https://smashystream.xyz/" },
