@@ -20,5 +20,9 @@ export function createServer() {
 
   app.get("/api/demo", handleDemo);
 
+  // Darkweb protection routes
+  app.post("/api/darkweb/verify-passcode", verifyPasscodeHandler);
+  app.get("/api/darkweb/verify-token", verifyTokenHandler);
+
   return app;
 }
