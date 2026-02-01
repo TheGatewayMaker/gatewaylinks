@@ -28,7 +28,7 @@ const streamingCategories = [
   {
     icon: Monitor,
     title: "Streaming Services",
-    count: "45+ platforms",
+    count: "55+ platforms",
     links: [
       { name: "1Shows", url: "https://www.1shows.nl/" },
       { name: "1Movies", url: "https://1movies.bz/" },
