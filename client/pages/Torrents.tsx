@@ -31,6 +31,7 @@ const torrentsCategories = [
       { name: "Torrent Quest", url: "https://torrentquest.com/" },
       { name: "1337x", url: "https://www.1337x.tw/" },
       { name: "1337x Movies", url: "https://1337x.to/movie-library/1/" },
+      { name: "YTS", url: "https://yts.lt/" },
     ],
   },
 ];
