@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { PasscodeModal } from "@/components/PasscodeModal";
-import { WarningModal } from "@/components/WarningModal";
+// import { PasscodeModal } from "@/components/PasscodeModal";
+// import { WarningModal } from "@/components/WarningModal";
 
 export default function DarkWeb() {
   const navigate = useNavigate();
