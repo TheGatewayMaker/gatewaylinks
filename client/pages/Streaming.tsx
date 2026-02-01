@@ -125,7 +125,7 @@ const streamingCategories = [
       { name: "Pahe", url: "https://pahe.ink/" },
       { name: "PSArips", url: "https://psa.wf/" },
       { name: "rarefilmm", url: "https://rarefilmm.com/" },
-      { name: "UHDMovies", url: "https://uhdmovies.bet/" },
+      { name: "UHDMovies", url: "https://uhdmovies.loan/" },
       { name: "Vadapav", url: "https://vadapav.mov/" },
       { name: "Vegamovies", url: "https://vegamovies.ms/" },
       { name: "Vidnaija", url: "https://vidnaija.com.ng/" },
