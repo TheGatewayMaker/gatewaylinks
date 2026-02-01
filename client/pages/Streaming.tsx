@@ -69,6 +69,7 @@ const streamingCategories = [
       { name: "KipStream", url: "https://kipstream.lol/" },
       { name: "LetStream", url: "https://www.letstream.site/" },
       { name: "LookMovie", url: "https://lookmovie2.to/" },
+      { name: "LookMovie (Alt)", url: "https://proxymirrorlookmovie.github.io/" },
       { name: "M-Zone", url: "https://m-zone.org/" },
       { name: "Mapple", url: "https://mapple.tv/" },
       { name: "MovieMaze", url: "https://moviemaze.cc/" },
