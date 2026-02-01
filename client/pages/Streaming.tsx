@@ -113,7 +113,7 @@ const streamingCategories = [
   {
     icon: Download,
     title: "Direct Downloads & Anime",
-    count: "17 sites",
+    count: "18 sites",
     links: [
       { name: "AnimeOut", url: "https://www.animeout.xyz/" },
       { name: "Cinema of the World", url: "https://worldscinema.org/" },
