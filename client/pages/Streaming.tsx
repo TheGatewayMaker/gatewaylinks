@@ -88,6 +88,7 @@ const streamingCategories = [
       { name: "PressPlay", url: "https://www.pressplay.top/" },
       { name: "Putlocker", url: "https://putlocker.pe/" },
       { name: "Rive", url: "https://rivestream.xyz/" },
+      { name: "Rive (Alt)", url: "https://cinemaos-v2.vercel.app/" },
       { name: "SFlix", url: "https://sflix.fi/" },
       { name: "ShowboxMovies", url: "https://www.showboxmovies.net/" },
       { name: "Smashystream", url: "https://smashystream.xyz/" },
