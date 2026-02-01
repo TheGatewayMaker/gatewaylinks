@@ -62,6 +62,7 @@ const streamingCategories = [
       { name: "Heartive", url: "https://heartive.pages.dev/" },
       { name: "HiMovies", url: "https://himovies.sx/" },
       { name: "HydraHD", url: "https://hydrahd.io/" },
+      { name: "HydraHD (Alt)", url: "https://hydrahd.info/" },
       { name: "Hurawatch", url: "https://hurawatchz.to/" },
       { name: "KipFlix", url: "https://kipflix.xyz/" },
       { name: "KipStream", url: "https://kipstream.lol/" },
