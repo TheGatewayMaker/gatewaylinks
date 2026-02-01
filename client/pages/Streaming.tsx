@@ -139,7 +139,10 @@ const streamingCategories = [
     title: "East / South Asian Drama",
     count: "6 platforms",
     links: [
-      { name: "AsiaFlix", url: "https://asiaflix.net/" },
+      { name: "AsiaFlix", url: "https://asiaflix.in/" },
+      { name: "AsiaFlix 2", url: "https://asiaflix.net/" },
+      { name: "AsiaFlix 3", url: "https://asiaflix.live/" },
+      { name: "AsiaFlix 4", url: "https://asiaflix.cfd/" },
       { name: "DramaDay", url: "https://dramaday.me/" },
       { name: "DramaHood", url: "https://kdramahood.com/" },
       { name: "Dramanice", url: "https://ww3.dramanice.video/" },
