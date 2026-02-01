@@ -40,6 +40,7 @@ const streamingCategories = [
       { name: "BrocoFlix", url: "https://brocoflix.xyz/" },
       { name: "Cataz", url: "https://cataz.to/" },
       { name: "Cineby", url: "https://www.cineby.gd/" },
+      { name: "CineHD", url: "https://cinehd.cc/" },
       { name: "CineBolt", url: "https://cinebolt.net/" },
       { name: "Cinema.bz", url: "https://cinema.bz/" },
       { name: "CinemaDeck", url: "https://cinemadeck.com/" },
