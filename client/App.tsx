@@ -35,10 +35,7 @@ const App = () => (
           <Route path="/ai" element={<AI />} />
           <Route path="/games" element={<Games />} />
           <Route path="/torrents" element={<Torrents />} />
-          <Route
-            path="/darkweb"
-            element={<CategoryPlaceholder title="Dark Web" isDevelopment />}
-          />
+          <Route path="/darkweb" element={<DarkWeb />} />
           <Route
             path="/breaches"
             element={
